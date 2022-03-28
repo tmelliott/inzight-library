@@ -1,0 +1,30 @@
+[submodule "pkgs/iNZightTools"]
+	path = pkgs/iNZightTools
+	url = git@github.com:iNZightVIT/iNZightTools
+[submodule "pkgs/iNZightTS"]
+	path = pkgs/iNZightTS
+	url = git@github.com:iNZightVIT/iNZightTS
+[submodule "pkgs/iNZightMR"]
+	path = pkgs/iNZightMR
+	url = git@github.com:iNZightVIT/iNZightMR
+[submodule "pkgs/iNZightRegression"]
+	path = pkgs/iNZightRegression
+	url = git@github.com:iNZightVIT/iNZightRegression
+[submodule "pkgs/iNZightPlots"]
+	path = pkgs/iNZightPlots
+	url = git@github.com:iNZightVIT/iNZightPlots
+[submodule "pkgs/iNZightModules"]
+	path = pkgs/iNZightModules
+	url = git@github.com:iNZightVIT/iNZightModules
+[submodule "pkgs/iNZight"]
+	path = pkgs/iNZight
+	url = git@github.com:iNZightVIT/iNZight
+[submodule "pkgs/iNZightUpdate"]
+	path = pkgs/iNZightUpdate
+	url = git@github.com:iNZightVIT/iNZightUpdate
+[submodule "pkgs/FutureLearnData"]
+	path = pkgs/FutureLearnData
+	url = git@github.com:iNZightVIT/FutureLearnData
+[submodule "pkgs/addons"]
+	path = pkgs/addons
+	url = git@github.com:iNZightVIT/addons
