@@ -2,7 +2,7 @@ pkgs := iNZightTools iNZightTS iNZightMR iNZightPlots iNZightRegression  iNZight
 
 install:
 	@for pkg in $(pkgs) ; do \
-		DIR=pkgs/$$pkg Rscript -e 'setwd(Sys.getenv("DIR")); remotes::install_local()' ; \
+		DIR=pkgs/$$pkg Rscript -e 'setwd(Sys.getenv("DIR")); remotes::install_local(dependencies = TRUE)' ; \
 	done
 
 versions:
