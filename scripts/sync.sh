@@ -1,6 +1,6 @@
 #!/bin/bash
 
-declare -a pkgs=("iNZightTools" "iNZightPlots" "iNZight")
+declare -a pkgs=("iNZightTools" "iNZightRegression" "iNZightPlots" "iNZightModules" "iNZight")
 
 for pkg in ${pkgs[@]}
 do
