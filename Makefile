@@ -2,7 +2,7 @@ pkgs := iNZightTools iNZightTS iNZightMR iNZightPlots iNZightRegression  iNZight
 
 install:
 	@for pkg in $(pkgs) ; do \
-		R CMD INSTALL pkgs/$$pkg ; \
+		pkg=$$pkg Rscript -e 'remotes::install_local(file.path("pkgs", Sys.getenv("pkg")), depends=TRUE, force=T)' ; \
 	done
 
 versions:
