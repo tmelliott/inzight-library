@@ -28,3 +28,6 @@
 [submodule "pkgs/addons"]
 	path = pkgs/addons
 	url = git@github.com:iNZightVIT/addons
+[submodule "pkgs/iNZightTS2"]
+	path = pkgs/iNZightTS2
+	url = git@github.com:iNZightVIT/iNZightTS2.git

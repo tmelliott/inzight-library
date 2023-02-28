@@ -1,4 +1,4 @@
-pkgs := iNZightTools iNZightTS iNZightMR iNZightPlots iNZightRegression  iNZightModules iNZight FutureLearnData iNZightUpdate
+pkgs := iNZightTools iNZightTS iNZightTS2 iNZightMR iNZightPlots iNZightRegression  iNZightModules iNZight FutureLearnData iNZightUpdate
 
 install:
 	@for pkg in $(pkgs) ; do \
