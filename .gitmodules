@@ -31,3 +31,6 @@
 [submodule "pkgs/iNZightTS2"]
 	path = pkgs/iNZightTS2
 	url = https://github.com/iNZightVIT/iNZightTS2
+[submodule "pkgs/iNZightMaps"]
+	path = pkgs/iNZightMaps
+	url = git@github.com:iNZightVIT/iNZightMaps.git
